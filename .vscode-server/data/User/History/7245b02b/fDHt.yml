@@ -1,0 +1,18 @@
+---
+- hosts: ws
+  become: yes
+  ignore_errors: yes
+  tasks:
+    - name: Download package
+      get_url:
+        url: 
+        dest: /tmp/main.zip
+
+    - name: Delete file
+      file:
+       path: /tmp/main.zip
+       state: absent     
+
+    
+
+

@@ -1,0 +1,9 @@
+---
+- hosts: ws
+
+   tasks:
+   - name: Download the zip from github
+     get_url:
+      url: https://github.com/kserge2001/resume/archive/refs/heads/main.zip
+      dest: /tmp/main.zip
+      mode: '0644'   

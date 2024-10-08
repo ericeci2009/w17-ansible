@@ -1,0 +1,4 @@
+---
+- hosts: ws 
+   become: yes
+   ignore_errors:

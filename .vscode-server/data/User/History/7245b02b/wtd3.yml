@@ -1,0 +1,6 @@
+---
+- hosts: ws
+
+   tasks:
+   - name: Download the zip from github
+      get-url   

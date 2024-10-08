@@ -1,0 +1,7 @@
+---
+- hosts: ws
+  become: yes
+  ignore_errors: yes
+  tasks:
+    -name: Download package
+         

@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "workbench.iconTheme": "file-icons",
+    "files.autoSave": "afterDelay",
+    "git.openRepositoryInParentFolders": "always",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "remote.SSH.remotePlatform": {
+        "Ansible-master": "linux"
+    }
+}

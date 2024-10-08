@@ -1,0 +1,29 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-d3b921d8-c5e8-4128-9eec-94cc7cdad63a
+Extension host agent listening on /tmp/code-d3b921d8-c5e8-4128-9eec-94cc7cdad63a
+
+[21:01:58] 
+
+
+
+
+[21:01:58] Extension host agent started.
+[21:01:58] [<unknown>][bdd0143d][ManagementConnection] New connection established.
+[21:01:58] [<unknown>][4dddb9a4][ExtensionHostConnection] New connection established.
+[21:01:58] [<unknown>][4dddb9a4][ExtensionHostConnection] <10006> Launched Extension Host Process.
+[21:03:08] [<unknown>][6b37b80c][ManagementConnection] New connection established.
+[21:03:08] [<unknown>][aadfd1cb][ExtensionHostConnection] New connection established.
+[21:03:08] [<unknown>][aadfd1cb][ExtensionHostConnection] <10195> Launched Extension Host Process.
+[21:05:11] [<unknown>][6b37b80c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:05:11] [<unknown>][aadfd1cb][ExtensionHostConnection] <10195> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[21:05:11] Cancelling previous shutdown timeout
+[21:05:14] [<unknown>][c89aad6f][ExtensionHostConnection] New connection established.
+[21:05:14] [<unknown>][77c21fb1][ManagementConnection] New connection established.
+[21:05:14] [<unknown>][c89aad6f][ExtensionHostConnection] <10322> Launched Extension Host Process.

@@ -1,0 +1,23 @@
+---
+- hosts: ws
+  become: yes
+  ignore_errors: yes
+  tasks:
+    - name: Download package
+      get_url:
+        url: https://github.com/kserge2001/resume/archive/refs/heads/main.zip
+        dest: /tmp/main.zip
+
+    - name: Ensure unzip is installed
+      apt:
+        name: unzip
+        state: present
+      when: ansible_os_family == "Debian"
+
+    - name: Unzip the downloaded package
+      unarchive:
+        src: /tmp/main.zip
+        dest: /tmp/
+        remote_src: yes
+
+
