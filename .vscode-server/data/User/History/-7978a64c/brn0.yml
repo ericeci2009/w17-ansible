@@ -1,0 +1,26 @@
+---
+- hosts: ws
+  become: true
+  tasks:
+     - name: Update all packages
+       package:
+          name: '*'
+          state: latest
+     - name: Install Apache
+       yum:
+          name: httpd
+          state: latest
+     -  name: Start Daemon
+        service:
+           name: httpd
+           state: started
+           enabled: true
+     - name: Delete file if exist           
+       file:         
+            path: /var/www/html/index.html
+            state: touch
+        ignore_errors:true
+
+
+    
+           

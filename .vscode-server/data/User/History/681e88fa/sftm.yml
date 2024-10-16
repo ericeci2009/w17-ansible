@@ -1,0 +1,16 @@
+---
+- hosts: ws
+  become: true
+  roles:
+    - apache
+    - geerlingguy.java
+    - ntp
+
+
+
+
+    
+
+
+     
+    

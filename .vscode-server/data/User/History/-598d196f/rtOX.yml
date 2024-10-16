@@ -1,0 +1,5 @@
+---
+- host: all
+  task:
+    -name: Copy config file
+     template  
